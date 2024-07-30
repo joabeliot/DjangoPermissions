@@ -11,7 +11,7 @@
 
 ## Commit History
 
-### Commit-C000: "Github Initialization"
+### Commit-C000: "Github Initialization" [GoTo](https://github.com/joabeliot/DjangoPermissions/tree/45d5fca86b4fc231aab1f66617653c9166718e45)
 
 ### Commit-C001: "BoilerPlate set-up"
 
@@ -20,7 +20,12 @@
     - 2. Make sure pip is added to environmental variables. Guess that's it your good to go.
 2. Create Django Project with the command `django-admin startproject <projectName>` in our case it'll be `django-admin startproject core`
 3. Create Django Application by Changing Directory "cd" to the project directory `cd <projectName>` in our case it'll be `cd core` then the command to create an Django Application is `python manage.py startapp <appName>` in our case it'll be `python manage.py startapp auth`
-![alt text](imgs/djangocreate-cmdline-ss.png)
+```shell
+PS D:\Projects\DjangoPermissions> django-admin startproject core
+PS D:\Projects\DjangoPermissions> cd core
+PS D:\Projects\DjangoPermissions\core> python manage.py startapp auth
+PS D:\Projects\DjangoPermissions\core>
+```
 4. Configuring the App in the Project. Navigate to `settings.py` inside the Project folder. `core\settings.py` and find 
 ```python
 INSTALLED_APPS = [
